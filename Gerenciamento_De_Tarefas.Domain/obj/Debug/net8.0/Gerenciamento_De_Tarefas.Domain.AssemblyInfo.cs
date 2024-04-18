@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gerenciamento_De_Tarefas.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a8123cac95bb5e9efb638aa7acd50c2e31bd47e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12e92c384d2a4798b591197599480fed4edb2e97")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gerenciamento_De_Tarefas.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gerenciamento_De_Tarefas.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

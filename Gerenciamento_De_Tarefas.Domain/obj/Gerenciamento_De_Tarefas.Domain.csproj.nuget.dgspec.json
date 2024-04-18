@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ruilo\\OneDrive\\Documentos\\Projetos\\Gerenciamento_De_Tarefas.Domain\\Gerenciamento_De_Tarefas.Domain.csproj": {}
+    "C:\\Users\\ruilo\\OneDrive\\Documentos\\Projetos\\ProjetoTreino\\Gerenciamento_De_Tarefas\\Gerenciamento_De_Tarefas.Domain\\Gerenciamento_De_Tarefas.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ruilo\\OneDrive\\Documentos\\Projetos\\Gerenciamento_De_Tarefas.Domain\\Gerenciamento_De_Tarefas.Domain.csproj": {
+    "C:\\Users\\ruilo\\OneDrive\\Documentos\\Projetos\\ProjetoTreino\\Gerenciamento_De_Tarefas\\Gerenciamento_De_Tarefas.Domain\\Gerenciamento_De_Tarefas.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ruilo\\OneDrive\\Documentos\\Projetos\\Gerenciamento_De_Tarefas.Domain\\Gerenciamento_De_Tarefas.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ruilo\\OneDrive\\Documentos\\Projetos\\ProjetoTreino\\Gerenciamento_De_Tarefas\\Gerenciamento_De_Tarefas.Domain\\Gerenciamento_De_Tarefas.Domain.csproj",
         "projectName": "Gerenciamento_De_Tarefas.Domain",
-        "projectPath": "C:\\Users\\ruilo\\OneDrive\\Documentos\\Projetos\\Gerenciamento_De_Tarefas.Domain\\Gerenciamento_De_Tarefas.Domain.csproj",
+        "projectPath": "C:\\Users\\ruilo\\OneDrive\\Documentos\\Projetos\\ProjetoTreino\\Gerenciamento_De_Tarefas\\Gerenciamento_De_Tarefas.Domain\\Gerenciamento_De_Tarefas.Domain.csproj",
         "packagesPath": "C:\\Users\\ruilo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ruilo\\OneDrive\\Documentos\\Projetos\\Gerenciamento_De_Tarefas.Domain\\obj\\",
+        "outputPath": "C:\\Users\\ruilo\\OneDrive\\Documentos\\Projetos\\ProjetoTreino\\Gerenciamento_De_Tarefas\\Gerenciamento_De_Tarefas.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ruilo\\AppData\\Roaming\\NuGet\\NuGet.Config",

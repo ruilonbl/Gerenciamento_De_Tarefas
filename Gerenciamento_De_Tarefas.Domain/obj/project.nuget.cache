@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BYaBE4qri93MrVm0XMvy5XihEvgHh8BKvfrLkAqTbkL6jcuSW9S+iC1CZJj2Sg7fR1FeYc4Beni3q4QG8df/pA==",
+  "dgSpecHash": "qPq4T2w/orr6YToSFx/1Eb9a692nE50ZevjPZ8jcICEla6XBKdGDg28Jkd1URC5+Ky2fLzJ/gwee0x/ttxrwCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ruilo\\OneDrive\\Documentos\\Projetos\\Gerenciamento_De_Tarefas.Domain\\Gerenciamento_De_Tarefas.Domain.csproj",
+  "projectFilePath": "C:\\Users\\ruilo\\OneDrive\\Documentos\\Projetos\\ProjetoTreino\\Gerenciamento_De_Tarefas\\Gerenciamento_De_Tarefas.Domain\\Gerenciamento_De_Tarefas.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ruilo\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ruilo\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
