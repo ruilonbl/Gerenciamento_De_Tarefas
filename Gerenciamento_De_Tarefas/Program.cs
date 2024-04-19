@@ -2,6 +2,7 @@ using Gerenciamento_De_Tarefas.Domain.ModeloPadrao;
 using Gerenciamento_De_Tarefas.Domain.TarefasModel;
 using Gerenciamento_De_Tarefas.Domain.UsuarioModel;
 using Gerenciamento_De_Tarefas.Infra.Data;
+using Gerenciamento_De_Tarefas.Infra.RepositorioPadrao;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

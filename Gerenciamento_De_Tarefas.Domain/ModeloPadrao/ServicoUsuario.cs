@@ -9,7 +9,7 @@ namespace Gerenciamento_De_Tarefas.Domain.ModeloPadrao
             throw new NotImplementedException();
         }
 
-        public void Delete(Usuario objeto)
+        public void Delete(int id)
         {
             throw new NotImplementedException();
         }

@@ -11,7 +11,7 @@ namespace Gerenciamento_De_Tarefas.Domain.ModeloPadrao
     {
         void Add(T objeto);
         void Update(T objeto);
-        void Delete(T objeto);
+        void Delete(int id);
         T Get(int id);
         List<T> GetAll();
     }

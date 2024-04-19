@@ -10,6 +10,5 @@ namespace Gerenciamento_De_Tarefas.Domain.LoginUsuario
     {
         public int Nome { get; set; }
         public string Senha { get; set; }
-        public string aSenha { get; set; }
     }
 }

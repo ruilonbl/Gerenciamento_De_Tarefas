@@ -4,29 +4,37 @@ namespace Gerenciamento_De_Tarefas.Domain.ModeloPadrao
 {
     public class ServicoTarefa : IModeloPadraoServices<Tarefas>
     {
-        public void Add(Tarefas objeto)
+        private readonly IModeloPadraoRepositorio<Tarefas> _modeloPadraoRepositorio;
+
+        public ServicoTarefa(IModeloPadraoRepositorio<Tarefas> modeloPadraoRepositorio)
         {
-            throw new NotImplementedException();
+            _modeloPadraoRepositorio = modeloPadraoRepositorio;
         }
 
-        public void Delete(Tarefas objeto)
+        public void Add(Tarefas objeto)
         {
-            throw new NotImplementedException();
+            _modeloPadraoRepositorio.Add(objeto);
+        }
+
+        public void Delete(int id)
+        {
+            var tarefas = Get(id);
+            _modeloPadraoRepositorio.Delete(tarefas);
         }
 
         public Tarefas Get(int id)
         {
-            throw new NotImplementedException();
+            return _modeloPadraoRepositorio.Get(id);
         }
 
         public List<Tarefas> GetAll()
         {
-            throw new NotImplementedException();
+            return _modeloPadraoRepositorio.GetAll();
         }
 
         public void Update(Tarefas objeto)
         {
-            throw new NotImplementedException();
+            _modeloPadraoRepositorio.Update(objeto);
         }
     }
 }
