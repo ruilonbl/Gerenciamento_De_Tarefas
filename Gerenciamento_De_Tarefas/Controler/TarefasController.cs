@@ -7,7 +7,7 @@ namespace Gerenciamento_De_Tarefas.Controler
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TarefasController : Controller
+    public class TarefasController : Controller 
     {
         private IModeloPadraoServices<Tarefas> _modeloPadraoServices;
 

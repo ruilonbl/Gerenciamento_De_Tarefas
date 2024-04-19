@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Gerenciamento_De_Tarefas.Infra.Migrations
 {
     /// <inheritdoc />
-    public partial class GerantoMigracao : Migration
+    public partial class ModificandoIdnaTabelaUser : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -30,7 +30,8 @@ namespace Gerenciamento_De_Tarefas.Infra.Migrations
                 name: "Tarefas",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Descricao = table.Column<int>(type: "int", nullable: false),
                     Status = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     UsuarioId = table.Column<int>(type: "int", nullable: false),

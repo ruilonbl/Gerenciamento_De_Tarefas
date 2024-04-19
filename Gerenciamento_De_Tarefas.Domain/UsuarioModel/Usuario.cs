@@ -1,4 +1,5 @@
 ﻿using Gerenciamento_De_Tarefas.Domain.TarefasModel;
+using System.Text.Json.Serialization;
 
 namespace Gerenciamento_De_Tarefas.Domain.UsuarioModel
 {
@@ -8,6 +9,6 @@ namespace Gerenciamento_De_Tarefas.Domain.UsuarioModel
         public string Nome { get; set; }
         public string Email { get; set;}
         public string Senha { get; set; }
-        public List<Tarefas> Tarefas { get; set; } = new List<Tarefas>();
+        public List<Tarefas> Tarefas { get; set; } = new();
     }
 }

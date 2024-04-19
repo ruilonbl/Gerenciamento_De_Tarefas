@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Gerenciamento_De_Tarefas.Infra.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240417003117_GerantoMigracao")]
-    partial class GerantoMigracao
+    [Migration("20240419010103_ModificandoIdnaTabelaUser")]
+    partial class ModificandoIdnaTabelaUser
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,8 +27,11 @@ namespace Gerenciamento_De_Tarefas.Infra.Migrations
 
             modelBuilder.Entity("Gerenciamento_De_Tarefas.Domain.TarefasModel.Tarefas", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("DataFinal")
                         .HasColumnType("datetime2");

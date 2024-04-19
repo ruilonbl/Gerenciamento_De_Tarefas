@@ -1,32 +1,41 @@
-﻿using Gerenciamento_De_Tarefas.Domain.UsuarioModel;
+﻿using Gerenciamento_De_Tarefas.Domain.TarefasModel;
+using Gerenciamento_De_Tarefas.Domain.UsuarioModel;
 
 namespace Gerenciamento_De_Tarefas.Domain.ModeloPadrao
 {
     public class ServicoUsuario : IModeloPadraoServices<Usuario>
     {
+        private readonly IModeloPadraoRepositorio<Usuario> _modeloPadraoRepositorio;
+
+        public ServicoUsuario(IModeloPadraoRepositorio<Usuario> modeloPadraoRepositorio)
+        {
+            _modeloPadraoRepositorio = modeloPadraoRepositorio;
+        }
+
         public void Add(Usuario objeto)
         {
-            throw new NotImplementedException();
+            _modeloPadraoRepositorio.Add(objeto);
         }
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            var usuario = Get(id);
+            _modeloPadraoRepositorio.Delete(usuario);
         }
 
         public Usuario Get(int id)
         {
-            throw new NotImplementedException();
+            return _modeloPadraoRepositorio.Get(id);
         }
 
         public List<Usuario> GetAll()
         {
-            throw new NotImplementedException();
+            return _modeloPadraoRepositorio.GetAll();
         }
 
         public void Update(Usuario objeto)
         {
-            throw new NotImplementedException();
+            _modeloPadraoRepositorio.Update(objeto);
         }
     }
 }
