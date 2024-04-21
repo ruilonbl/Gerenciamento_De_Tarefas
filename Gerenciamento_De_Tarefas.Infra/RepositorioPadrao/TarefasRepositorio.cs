@@ -20,6 +20,7 @@ namespace Gerenciamento_De_Tarefas.Infra.RepositorioPadrao
         public void Add(Tarefas objeto)
         {
             _appDbContext.Add(objeto);
+            _appDbContext.SaveChanges();
         }
 
         public void Delete(Tarefas objeto)
@@ -40,6 +41,7 @@ namespace Gerenciamento_De_Tarefas.Infra.RepositorioPadrao
         public void Update(Tarefas objeto)
         {
             _appDbContext.Update(objeto);
+            _appDbContext.SaveChanges();
         }
     }
 }

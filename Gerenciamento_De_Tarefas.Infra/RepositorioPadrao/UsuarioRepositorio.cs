@@ -21,6 +21,7 @@ namespace Gerenciamento_De_Tarefas.Infra.RepositorioPadrao
         public void Add(Usuario objeto)
         {
             _appDbContext.Add(objeto);
+            _appDbContext.SaveChanges();
         }
 
         public void Delete(Usuario objeto)
@@ -41,6 +42,7 @@ namespace Gerenciamento_De_Tarefas.Infra.RepositorioPadrao
         public void Update(Usuario objeto)
         {
             _appDbContext.Update(objeto);
+            _appDbContext.SaveChanges();
         }
     }
 }
