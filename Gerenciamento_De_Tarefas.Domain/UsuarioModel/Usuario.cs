@@ -9,7 +9,7 @@ namespace Gerenciamento_De_Tarefas.Domain.UsuarioModel
         public string Nome { get; set; }
         public string Email { get; set;}
         public string Senha { get; set; }
-        //[JsonIgnore]
-        public List<Tarefas> Tarefas { get; set; } = new();
+        [JsonIgnore]
+        public List<Tarefas>? Tarefas { get; set; }
     }
 }
