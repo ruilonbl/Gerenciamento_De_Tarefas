@@ -11,7 +11,8 @@ namespace Gerenciamento_De_Tarefas.Domain.TarefasModel
         public StatusEnum Status { get; set;}
 
         //[JsonIgnore]
-        public Usuario Usuario { get; set;}
+        public Usuario? Usuario { get; set;}
+        public int UsuarioId { get; set;}
         public DateTime DataInicial { get; set;}
         public DateTime DataFinal { get; set;}
         
