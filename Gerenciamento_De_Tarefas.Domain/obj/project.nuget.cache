@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "qPq4T2w/orr6YToSFx/1Eb9a692nE50ZevjPZ8jcICEla6XBKdGDg28Jkd1URC5+Ky2fLzJ/gwee0x/ttxrwCQ==",
+  "dgSpecHash": "yJPQ0EAx5c8EVJcSPpKWT9UIoSwB6FbEfoa0V7t0AhqIJmDtgR7AD0wI5xWFkAMRFHO7TnjMJdiE57UpU41fWA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ruilo\\OneDrive\\Documentos\\Projetos\\ProjetoTreino\\Gerenciamento_De_Tarefas\\Gerenciamento_De_Tarefas.Domain\\Gerenciamento_De_Tarefas.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ruilo\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ruilo\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\ruilo\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\ruilo\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\ruilo\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\ruilo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ruilo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\ruilo\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

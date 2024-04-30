@@ -36,6 +36,7 @@ namespace Gerenciamento_De_Tarefas.Controler
             _modeloPadraoServices.Add(usuario);
             return Ok(usuario);
         }
+
         [HttpDelete("remover-usuarios/{id}")]
         public OkResult Remover(int id)
         {
